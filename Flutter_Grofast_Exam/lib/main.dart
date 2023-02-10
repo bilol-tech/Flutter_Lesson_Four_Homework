@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_first_portfolio/auth/pageViewControl.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:my_first_portfolio/auth/welcome_page.dart';
 
 void main() {
   runApp(const MainFile());
@@ -10,9 +11,15 @@ class MainFile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: PageViev(),
-    );
+    return ScreenUtilInit(
+        designSize: const Size(375, 820),
+        minTextAdapt: true,
+        splitScreenMode: true,
+        builder: (context, child) {
+          return const MaterialApp(
+            debugShowCheckedModeBanner: false,
+            home: WelcomePage(),
+          );
+        });
   }
 }

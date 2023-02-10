@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728312912395",
+    "project_id": "examfourshop",
+    "storage_bucket": "examfourshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728312912395:android:6974cf415167f6be8e450e",
+        "android_client_info": {
+          "package_name": "com.example.exam_four"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728312912395-7tkqv0l9bv76agmvqtjfpvbkhg05lm5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdlHUq0thedC3kvROeyAG2lBQXdgqX0to"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728312912395-7tkqv0l9bv76agmvqtjfpvbkhg05lm5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
